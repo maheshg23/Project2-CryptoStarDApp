@@ -23,14 +23,13 @@
  */
 
 const HDWalletProvider = require('truffle-hdwallet-provider');
-// const infuraKey = "PROJECT KEY";
+const infuraKey = "PROJECT KEY";
 
-const infuraKey = "264c6913a5524f61ab70544cac16a198";
 
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
-// const mnemonic = "SEED WORDS";
-const mnemonic = "car issue fatal castle kid depth dutch license prison forget summer snake";
+const mnemonic = "SEED WORDS";
+
 
 module.exports = {
   /**
